@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Rafiq | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Matrix Background -->
+  <canvas id="matrix"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">&lt;MOnyx /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#home">~/home</a></li>
+      <li><a href="#about">~/about</a></li>
+      <li><a href="#skills">~/skills</a></li>
+      <li><a href="#experience">~/experience</a></li>
+      <li><a href="#education">~/education</a></li>
+      <li><a href="#contact">~/contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="terminal">
+      <div class="terminal-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">mohamed@kali: ~</span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="prompt">root@kali:~$</span> whoami</p>
+        <h1 class="glitch" data-text="MOHAMED RAFIQ">MOHAMED RAFIQ</h1>
+        <p><span class="prompt">root@kali:~$</span> cat role.txt</p>
+        <p class="typing" id="typing-text"></p>
+        <p><span class="prompt">root@kali:~$</span> <span class="cursor">_</span></p>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title"># About Me</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>Motivated <span class="highlight">Cybersecurity student</span> with hands-on experience in 
+        <span class="highlight">Penetration Testing</span>, SOC Operations, vulnerability assessment, 
+        Active Directory basics, and network security through practical labs and CTF-style challenges.</p>
+        <p>Ranked in the <span class="highlight">Top 1% on TryHackMe</span> with over 200 completed labs 
+        focused on offensive security, enumeration, web application security, and privilege escalation.</p>
+      </div>
+      <div class="stats">
+        <div class="stat-card">
+          <h3>200+</h3>
+          <p>Labs Completed</p>
+        </div>
+        <div class="stat-card">
+          <h3>Top 1%</h3>
+          <p>TryHackMe Rank</p>
+        </div>
+        <div class="stat-card">
+          <h3>Top 200</h3>
+          <p>In Egypt</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title"># Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fas fa-network-wired"></i>
+        <h3>Network Security</h3>
+        <p>Enumeration, Scanning, TCP/IP, DNS, HTTP/HTTPS, SSH</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-bug"></i>
+        <h3>Vulnerability Assessment</h3>
+        <p>OWASP Top 10, Web App Security, Exploitation</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-user-shield"></i>
+        <h3>SOC Operations</h3>
+        <p>Log Analysis, Security Monitoring, Incident Response</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-key"></i>
+        <h3>Privilege Escalation</h3>
+        <p>Active Directory, Windows/Linux Privesc</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-tools"></i>
+        <h3>Tools</h3>
+        <p>Nmap, Burp Suite, Wireshark, Metasploit, Hydra, SQLmap</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-code"></i>
+        <h3>Programming</h3>
+        <p>Python, Bash, C++ Fundamentals</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <h2 class="section-title"># Practical Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>TryHackMe & Hands-On Labs</h3>
+          <ul>
+            <li>Ranked in the Top 1% on TryHackMe</li>
+            <li>Completed 200+ practical cybersecurity labs and CTF challenges</li>
+            <li>Practiced enumeration, exploitation, privilege escalation, and AD basics</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Virtual Home Lab</h3>
+          <ul>
+            <li>Built virtual lab environments using VMware and VirtualBox</li>
+            <li>Simulated network attacks and defensive monitoring scenarios</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title" style="margin-top: 60px;"># Training & Learning Paths</h2>
+    <div class="certs-grid">
+      <div class="cert-card"><i class="fas fa-certificate"></i> Cyber Security 101 Path</div>
+      <div class="cert-card"><i class="fas fa-certificate"></i> Pre-Security Path</div>
+      <div class="cert-card in-progress"><i class="fas fa-spinner fa-spin"></i> SOC Level 1 Path</div>
+      <div class="cert-card in-progress"><i class="fas fa-spinner fa-spin"></i> Junior Penetration Tester</div>
+      <div class="cert-card in-progress"><i class="fas fa-spinner fa-spin"></i> INE eJPTv2</div>
+      <div class="cert-card in-progress"><i class="fas fa-spinner fa-spin"></i> OSCP Preparation</div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2 class="section-title"># Education</h2>
+    <div class="edu-card">
+      <i class="fas fa-graduation-cap"></i>
+      <div>
+        <h3>Bachelor of Computer Science</h3>
+        <p>Faculty of Computer and Information Science, Tanta University</p>
+        <span>Expected Graduation: 2028</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2 class="section-title"># Contact Me</h2>
+    <div class="contact-grid">
+      <a href="mailto:morafiq456.a@gmail.com" class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <p>morafiq456.a@gmail.com</p>
+      </a>
+      <a href="tel:+201008324165" class="contact-card">
+        <i class="fas fa-phone"></i>
+        <p>+20 1008324165</p>
+      </a>
+      <a href="https://tryhackme.com/p/MOnyx" target="_blank" class="contact-card">
+        <i class="fas fa-shield-alt"></i>
+        <p>TryHackMe Profile</p>
+      </a>
+      <a href="https://www.linkedin.com/in/mohamed-rafiq-47488b342" target="_blank" class="contact-card">
+        <i class="fab fa-linkedin"></i>
+        <p>LinkedIn</p>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mohamed Rafiq Elbogdady | Built with <i class="fas fa-heart"></i> and lots of ☕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
